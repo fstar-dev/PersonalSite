@@ -39,17 +39,27 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
+          <Techstack iconName="devicon-react-original-wordmark" />
+          <Techstack iconName="devicon-redux-original" />
           <Techstack iconName="devicon-javascript-plain " />
+          <Techstack iconName="devicon-typescript-plain" />
+          <Techstack iconName="cib-next-js" />
+          <Techstack iconName="devicon-gatsby-plain-wordmark" />
+          <Techstack iconName="cib-graphql" />
+          <Techstack iconName="devicon-vuejs-plain-wordmark" />
+          <Techstack iconName="cib-nuxt-js" />
+          <Techstack iconName="cib-material-design" />
+          <Techstack iconName="devicon-html5-plain-wordmark" />
+          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
+          <Techstack iconName="cib-jest" />
+          <Techstack iconName="cib-figma" />
+          <Techstack iconName="cib-amazon-aws" />
+          <Techstack iconName="devicon-php-plain" />
+          <Techstack iconName="devicon-python-plain-wordmark " />
           <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
@@ -57,9 +67,9 @@ function About() {
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
           <Techstack iconName="devicon-linux-plain" />
           <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-anaconda" />
+          <Techstack iconName="devicon-webstorm-plain-wordmark" />
           <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
+          <Techstack iconName="cib-firebase" />
           <Techstack iconName="cib-heroku" />
         </Row>
         <Github />

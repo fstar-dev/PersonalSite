@@ -15,32 +15,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+              I fell in love with web development and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I am a professional Front end developer specialized in 
               <i>
-                <b className="purple"> C++, Python and Javascript. </b>
+                <b className="purple"> React.js and Vue.js  </b>
               </i>
               <br />
               <br />
-              My current focus is on &nbsp;
+              I'm a 
               <i>
-                <b className="purple">
-                  Deep Learning and Natural Language Processing.
-                </b>
+                <b className="purple">&nbsp;  Good team player&nbsp; </b>
               </i>
-              <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with
-              <i>
-                <b className="purple"> Modern Javascript Frameworks</b>
+               and can follow 
+               <i>
+                 <b className="purple">&nbsp;  Agile methodology&nbsp;  </b>
               </i>
-                &nbsp; like
-              <i>
-                <b className="purple"> Node.js and React.js</b>
-              </i>
+              to provide rapid project delivery.
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
