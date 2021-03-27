@@ -41,6 +41,14 @@ function Footer() {
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </li>
+            <li className="social-icons">
+              <a
+                href="#"
+                style={{ color: "white" }}
+              >
+                <i className="fab fa-instagram"></i>
+              </a>
+            </li>
           </ul>
         </Col>
       </Row>
