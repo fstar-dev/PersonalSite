@@ -42,27 +42,32 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Senior Web Developer [Omdena]"
+              date="May 2019 - Jan 2020"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Developed an application from the ground up; also configured the project structure and application skeleton.",
+                "Created reusable React components for the date picker, dropdown, buttons, and input styles according to the provided designs.",
+                "Developed an application which manages subscriptions and monthly payments.",
+                "Developed an event management web application where the client is able to manage his events and all of the guests.",
+                "Rewrote an Angular 2.0 application with Vue.js",
+                "Created a custom CMS with Vue.js and AWS Lamda for a client with specail needs in functionality."
               ]}
             />
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="Junior Web Developer [Freelancer]"
+              date="Dec 2016 - May 2019"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Created reusable UI framework.",
+                "Used GraphQL API.",
+                "Reduced ton of boilerplate codes with custom hooks."
               ]}
             />
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              date="June 2020 - August 2020"
+              title="JavaScript  and Front end Web Developer"
+              date="March 2016 - Nov 2016"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Worked with a React/Redux environment on a major enterprise product already in production",
+                "Helped integrate charts libraries based on D3 and React."
               ]}
             />
           </Col>
