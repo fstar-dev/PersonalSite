@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../Assets/Benjamin.pdf";
+import pdf from "../../Assets/Resume.pdf";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -87,9 +87,9 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                "Benjamin is a highly efficient and reliable professional who possesses a broad skill set for web application development.",
-                "Benjamin is an open-minded web developer who's ready for new challenges.",
-                "Benjamin is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!"
+                "Samad is a highly efficient and reliable professional who possesses a broad skill set for web application development.",
+                "Samad is an open-minded web developer who's ready for new challenges.",
+                "Samad is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!"
             ]}
             />
           </Col>
