@@ -24,6 +24,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
-
+.firebase
 Server/node_modules
 Server/config.js
