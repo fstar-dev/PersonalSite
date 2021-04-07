@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import initiativeq from "../../Assets/Projects/initiativeq.png";
 import mercadolivre from "../../Assets/Projects/mercadolivre.png";
 import sport from "../../Assets/Projects/sport unity.png";
-import vipealo from "../../Assets/Projects/vipealo.png";
+import impactSuite from "../../Assets/Projects/impact suite.png";
 import odes2 from "../../Assets/Projects/odes2.png";
 
 function Projects() {
@@ -48,7 +48,7 @@ function Projects() {
             <ProjectCard
               imgPath={sport}
               isBlog={false}
-              title="Sprot Unity (React & Redux)"
+              title="Sport Unity (React & Redux)"
               description=""
               link="https://sportunity.com/en/"
             />
@@ -56,11 +56,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={vipealo}
+              imgPath={impactSuite}
               isBlog={false}
-              title="Excursions and Activities to Discover ( React & Next)"
+              title="The Impact Suite ( Vue & Tailwind CSS)"
               description=""
-              link="https://www.vipealo.com/"
+              link="https://ap2.theimpactsuite.com/"
             />
           </Col>
 
