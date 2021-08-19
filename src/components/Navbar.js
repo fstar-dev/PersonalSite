@@ -30,7 +30,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <h3 className="purple">Samad</h3>
+          <h3 className="purple">Christian</h3>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

@@ -87,9 +87,9 @@ function Resume() {
             <Resumecontent
               title=""
               content={[
-                "Samad is a highly efficient and reliable professional who possesses a broad skill set for web application development.",
-                "Samad is an open-minded web developer who's ready for new challenges.",
-                "Samad is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!"
+                "Christian is a highly efficient and reliable professional who possesses a broad skill set for web application development.",
+                "Christian is an open-minded web developer who's ready for new challenges.",
+                "Christian is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!"
             ]}
             />
           </Col>
