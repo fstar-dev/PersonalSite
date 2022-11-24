@@ -46,7 +46,7 @@ function About() {
           <Techstack iconName="cib-next-js" />
           <Techstack iconName="devicon-gatsby-plain-wordmark" />
           <Techstack iconName="cib-graphql" />
-          <Techstack iconName="devicon-vuejs-plain-wordmark" />
+          {/* <Techstack iconName="devicon-vuejs-plain-wordmark" /> */}
           <Techstack iconName="cib-nuxt-js" />
           <Techstack iconName="cib-material-design" />
           <Techstack iconName="devicon-html5-plain-wordmark" />
@@ -56,8 +56,8 @@ function About() {
           <Techstack iconName="cib-jest" />
           <Techstack iconName="cib-figma" />
           <Techstack iconName="cib-amazon-aws" />
-          <Techstack iconName="devicon-php-plain" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
+          {/* <Techstack iconName="devicon-php-plain" />
+          <Techstack iconName="devicon-python-plain-wordmark " /> */}
           <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
         </Row>

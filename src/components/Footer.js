@@ -10,7 +10,7 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Christian Belaya</h3>
+          <h3>Delfin Gonzales</h3>
         </Col>
         <Col md="4" className="footer-copywright">
           <h3>Copyright © {year}</h3>
@@ -19,36 +19,38 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/smiley717"
+                href="https://github.com/fstar-dev"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-github"></i>
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="#"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-twitter"></i>
               </a>
-            </li>
+            </li> */}
             <li className="social-icons">
               <a
-                href="#"
+                href="https://www.linkedin.com/in/delfin-gonzales-187485255/"
+                target="_blank"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-linkedin-in"></i>
               </a>
             </li>
-            <li className="social-icons">
+            {/* <li className="social-icons">
               <a
                 href="#"
                 style={{ color: "white" }}
               >
                 <i className="fab fa-instagram"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
         </Col>
       </Row>

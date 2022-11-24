@@ -30,7 +30,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <h3 className="purple">Christian</h3>
+          <h3 className="purple">Delfin</h3>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -79,7 +79,7 @@ function NavBar() {
 
             <Nav.Item className="fork-btn" >
               <Button
-                href="https://github.com/smiley717"
+                href="https://github.com/fstar-dev"
                 target="_blank"
                 className="fork-btn-inner"
               >

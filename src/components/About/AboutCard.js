@@ -10,8 +10,8 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Christian Belaya </span>
-            from <span className="purple"> Bhubaneswar, Mexico.</span>
+            Hi Everyone, I am <span className="purple">Delfin Gonzales </span>
+            from <span className="purple"> Oklahoma, USA.</span>
             <br />I am a web developer proficient in React, Vue, Node.js
             <br />
             <br />
@@ -22,7 +22,7 @@ function AboutCard() {
               <i className="far fa-hand-point-right"></i> Playing Games
             </li>
             <li className="about-activity">
-              <i className="far fa-hand-point-right"></i> Writting Tech Blogs
+              <i className="far fa-hand-point-right"></i> Playing Soccer
             </li>
             <li className="about-activity">
               <i className="far fa-hand-point-right"></i> Travelling
@@ -35,7 +35,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
-          <footer className="blockquote-footer">Christian</footer>
+          <footer className="blockquote-footer">Delfin Gonzales</footer>
         </blockquote>
       </Card.Body>
     </Card>

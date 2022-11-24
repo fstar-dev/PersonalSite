@@ -6,7 +6,7 @@ import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../Assets/Resume.pdf";
+// import pdf from "../../Assets/Resume.pdf";
 
 function Resume() {
   const uri = "https://porfolio-backend.vercel.app/ranks/getRanks";
@@ -33,63 +33,70 @@ function Resume() {
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          {/* <Button variant="primary" href={pdf} target="_blank">
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button variant="primary" href={pdf} target="_blank">
             <i className="fas fa-download">&nbsp;</i>Download CV
-          </Button> */}
-        </Row>
+          </Button>
+        </Row> */}
         <Row className="resume">
           <Col md={6} className="resume-left">
-            <h3 className="resume-title">Experience</h3>
+            <h3 className="resume-title">Experience(1)</h3>
             <Resumecontent
-              title="Senior Web Developer [Omdena]"
-              date="May 2019 - Jan 2020"
+              title="Senior Full Stack Engineer [Freecast Inc]"
+              date="Oct 2019 - Sep 2022"
               content={[
-                "Developed an application from the ground up; also configured the project structure and application skeleton.",
-                "Created reusable React components for the date picker, dropdown, buttons, and input styles according to the provided designs.",
-                "Developed an application which manages subscriptions and monthly payments.",
-                "Developed an event management web application where the client is able to manage his events and all of the guests.",
-                "Rewrote an Angular 2.0 application with Vue.js",
-                "Created a custom CMS with Vue.js and AWS Lamda for a client with specail needs in functionality."
+                "Developed useful and simplify Video Streaming Web Platform.",
+                "Perform the most complex product technical design and prototyping, software development, bug verification and resolution.",
+                "Designed event-driven architecture with AWS lambda, AWS SQS and AWS SNS.",
+                "API development (RESTful, GraphQL) with NodeJS/Golang.",
+                "Configured AWS serverless architecture with NodeJS runtime Lambda functions.",
+                "Unit testing using frameworks like Mocha, Jest, Jasmine, Karma, Cypress, Selenium.",
+                "Implemented the CI/CD and automation using GitHub and AWS Services.",
+                "Worked with MySQL, PostgreSQL as well as NoSQL databases like MongoDB, AWS DynamoDB.",
+                "Worked with Jira, Trello, Agile Scrum methodology."
               ]}
             />
             <Resumecontent
-              title="Junior Web Developer [Freelancer]"
-              date="Dec 2016 - May 2019"
+              title="Software Devleoper [Ulula]"
+              date="Feb 2014 - Jul 2016"
               content={[
-                "Created reusable UI framework.",
-                "Used GraphQL API.",
-                "Reduced ton of boilerplate codes with custom hooks."
-              ]}
-            />
-            <Resumecontent
-              title="JavaScript  and Front end Web Developer"
-              date="March 2016 - Nov 2016"
-              content={[
-                "Worked with a React/Redux environment on a major enterprise product already in production",
-                "Helped integrate charts libraries based on D3 and React."
+                "Created project in Laravel framework version 5.2 and upgraded till 5.6 including external packages.",
+                "Shifted the vanilla JavaScript/jQuery to Vue.JS framework for performance optimization.",
+                "Integrated various external APIs like Twilio, Nexmo, Senditoo, etc. for sending surveys and top-ups.."
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
+            <h3 className="resume-title">Experience(2)</h3>
+            <Resumecontent
+              title="Full Stack Engineer [Bancor]"
+              date="Sep 2016 - Jun 2019"
+              content={[
+                "Design client-side and server-side software architecture.",
+                "Build the front-end of applications through appealing visual design with ReactJS.",
+                "Develop and manage well-functioning PostgreSql, Mongo databases and applications.",
+                "Developed web3 integration module with web3 and eth.js library.",
+                "Write effective APIs using GraphQL and Rest API with Express.JS.",
+                "Test software to ensure responsiveness and efficiency with Jest, Mocha and Chai.",
+                "Implement CICD with Amazone Web Services.",
+                "Build features and applications with a mobile responsive design using Tailwind. Bootstrap.",
+                "Write technical documentation.",
+                "Work with data scientists and analysts to improve software.",
+              ]}
+            />
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="Tokyo University of Information Sciences"
-              date="2011 - 2014"
+              title="Keio University of Information Sciences"
+              date="2009 - 2013"
               content={["Bachelor's degree, Computer Science"]}
-            />
-            <Resumecontent
-              title="Osaka Shiritsu Kizu Junior High School"
-              date="2008 - 2011"
-              content={["I was the best student who was passionate about mathematics and computer science."]}
             />
             <h3 className="resume-title">Testimonials</h3>
             <Resumecontent
               title=""
               content={[
-                "Christian is a highly efficient and reliable professional who possesses a broad skill set for web application development.",
-                "Christian is an open-minded web developer who's ready for new challenges.",
-                "Christian is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!"
+                "Delfin is a highly efficient and reliable professional who possesses a broad skill set for web application development.",
+                "Delfin is an open-minded web developer who's ready for new challenges.",
+                "Delfin is an excellent software engineer and he is passionate about what he does. You can totally count on him to deliver your projects!"
             ]}
             />
           </Col>

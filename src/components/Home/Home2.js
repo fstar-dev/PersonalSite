@@ -18,9 +18,9 @@ function Home2() {
               I fell in love with web development and I have at least learnt
               something, I think… 🤷‍♂️
               <br />
-              <br />I am a professional Front end developer specialized in 
+              <br />Innovative and Passionate software engineer with 9 years of experience building and maintaining responsive web applications using modern web front end and backend technology 
               <i>
-                <b className="purple"> React.js and Vue.js  </b>
+                {/* <b className="purple"> React.js and Vue.js  </b> */}
               </i>
               <br />
               <br />
@@ -51,7 +51,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/smiley717"
+                  href="https://github.com/fstar-dev"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -59,7 +59,7 @@ function Home2() {
                   <i className="fab fa-github"></i>
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="#"
                   rel="noreferrer"
@@ -67,17 +67,18 @@ function Home2() {
                 >
                   <i className="fab fa-twitter"></i>
                 </a>
-              </li>
+              </li> */}
               <li className="social-icons">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/in/delfin-gonzales-187485255/"
                   rel="noreferrer"
+                  target="_blank"
                   className="icon-colour  home-social-icons"
                 >
                   <i className="fab fa-linkedin-in"></i>
                 </a>
               </li>
-              <li className="social-icons">
+              {/* <li className="social-icons">
                 <a
                   href="#"
                   rel="noreferrer"
@@ -85,7 +86,7 @@ function Home2() {
                 >
                   <i className="fab fa-instagram"></i>
                 </a>
-              </li>
+              </li> */}
             </ul>
           </Col>
         </Row>
